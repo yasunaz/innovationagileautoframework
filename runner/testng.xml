@@ -16,6 +16,9 @@
             <class name="test.regression.UserProfileRelated"/>
         </classes>
     </test>
-
+<!--
+    // this is the pom.xml in the copy of project know as
+    // underdev
+-->
 </suite>
 
