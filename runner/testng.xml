@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ParaBank" verbose="1" >
+
+    <test name="Smoke">
+        <classes>
+            <class name="test.smoke.AccounteRelated"/>
+            <class name="test.smoke.LoginRelated"/>
+            <class name="test.smoke.ProjectAccessReleated"/>
+        </classes>
+    </test>
+
+    <test name="Regreesion">
+        <classes>
+            <class name="test.regression.UserProfileRelated"/>
+        </classes>
+    </test>
+
+</suite>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="17041" started-at="2019-07-27T17:31:40Z" finished-at="2019-07-27T17:31:57Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="16973" started-at="2019-07-27T17:31:40Z" finished-at="2019-07-27T17:31:56Z">
+      <class name="test.smoke.AccounteRelated">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.smoke.AccounteRelated@340f438e]" name="setup" is-config="true" duration-ms="10635" started-at="2019-07-27T13:31:40Z" finished-at="2019-07-27T13:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testcase_t1234()[pri:0, instance:test.smoke.AccounteRelated@340f438e]" name="testcase_t1234" duration-ms="6321" started-at="2019-07-27T13:31:50Z" finished-at="2019-07-27T13:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_t1234 -->
+      </class> <!-- test.smoke.AccounteRelated -->
+    </test> <!-- Smoke -->
+    <test name="Regreesion" duration-ms="1" started-at="2019-07-27T17:31:57Z" finished-at="2019-07-27T17:31:57Z">
+      <class name="test.regression.UserProfileRelated">
+        <test-method status="PASS" signature="test_case_one()[pri:0, instance:test.regression.UserProfileRelated@1554909b]" name="test_case_one" duration-ms="1" started-at="2019-07-27T13:31:57Z" finished-at="2019-07-27T13:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_one -->
+      </class> <!-- test.regression.UserProfileRelated -->
+    </test> <!-- Regreesion -->
+  </suite> <!-- Suite1 -->
+</testng-results>

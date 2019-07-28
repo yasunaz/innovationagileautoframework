@@ -1,0 +1,6 @@
+pages\Registration.class
+pages\HomePage.class
+test\regression\UserProfileRelated.class
+test\smoke\LoginRelated.class
+test\smoke\ProjectAccessReleated.class
+test\smoke\AccounteRelated.class
